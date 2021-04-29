@@ -4,3 +4,18 @@
 .Charmeleon {
     max-width: 10%;
 }
+
+table {
+    background-color: orange;
+}
+
+#water {
+    color: blue;
+}
+
+.fas{
+    color: red;
+}
+#neutral {
+    color: black;
+}
