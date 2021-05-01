@@ -9,6 +9,8 @@ table {
     background-image: url(https://st2.depositphotos.com/1128918/7081/i/950/depositphotos_70815511-stock-photo-orange-gradient-on-the-grey.jpg);
     max-width: 400px;
     max-height: 600px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 #water, #ability{
@@ -25,11 +27,31 @@ table {
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: gold;
+    text-align: center;
 }
 .info {
     background-color: gold;
+    font-style: italic;
+    padding-top: 0%;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.large {
+    font-size: 20px;
+}
+.extraLarge {
+    font-size: 30px;
+}
+tfoot {
+    text-align: left;
+}
+#right {
+    text-align: right;
 }
