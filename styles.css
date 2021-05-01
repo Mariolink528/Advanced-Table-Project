@@ -1,16 +1,57 @@
-th, td {
-    border: 1px solid;
+.Charizard {
+    max-width: 80%;
 }
-th, .end {
-    color: white;
+.Charmeleon {
+    max-width: 100%;
 }
-th {
-    background-color: rgb(83, 152, 216);
+
+table {
+    background-image: url(https://st2.depositphotos.com/1128918/7081/i/950/depositphotos_70815511-stock-photo-orange-gradient-on-the-grey.jpg);
+    max-width: 400px;
+    max-height: 600px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
-.mid {
-    background-color: rgb(241, 241, 241);
+
+#water, #ability{
+    color: blue;
 }
-.end {
-    background-color: rgb(0, 128, 58);
+
+.fas{
+    color: red;
+}
+.neutral {
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gold;
+    text-align: center;
+}
+.info {
+    background-color: gold;
+    font-style: italic;
+    padding-top: 0%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.large {
+    font-size: 20px;
+}
+.extraLarge {
+    font-size: 30px;
+}
+tfoot {
+    text-align: left;
+}
+#right {
     text-align: right;
 }

@@ -1,42 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="styles.css", rel="stylesheet">
 </head>
 <body>
-    <h2>Camping Costs</h2>
     <table>
-        <tr>
-            <th>Item</th>
-            <th>Quantity</th>
-            <th>Price</th>
-            <th>Total</th>
-        </tr>
-        <tr>
-            <td>Tent</td>
-            <td>1</td>
-            <td>$279.00</td>
-            <td>$279.00</td>
-        </tr>
-        <tr class="mid">
-            <td>Sleeping Bags</td>
-            <td>2</td>
-            <td>$159.95</td>
-            <td>$319.90</td>
-        </tr>
-        <tr>
-            <td>Camping Chairs</td>
-            <td>2</td>
-            <td>$39.50</td>
-            <td>$79.00</td>
-        </tr>
-        <tr class="end">
-            <td colspan="3">Grand Total</td>
-            <td>$667.90</td>
-        </tr>
+        <colgroup>
+            <col span="1" style="width: 15%;">
+            <col span="1" style="width: 10%;">
+            <col span="1" style="width: 20%;">
+            <col span="1" style="width: 15%;">
+            <col span="1" style="width: 20%;">
+            <col span="1" style="width: 10%;">
+         </colgroup>
+         <thead>
+            <tr>
+                <td class = "bold small">Stage 2</td>
+                <td colspan = 2 class = "bold small">Evolves from Charmeleon</td>
+                <td colspan = 3 class =" small">Put Charizard on the Stage 1 Pokémon</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <img class = "Charmeleon" src= "https://static.wikia.nocookie.net/pokemon-quest-adventures/images/a/a4/005Charmeleon_XY_anime_2.png/revision/latest?cb=20170313041459"></td>
+                <td colspan = 2 class = "bold extraLarge">Charizard</td>
+                <td class = 'bold'>LV.76</td>
+                <td class = 'bold large'>150 HP</td>
+                <td><i class='fas extraLarge'>&#xf7e4;</i></td>
+            </tr>
+            <tr>
+                <td colspan = 6><img class= "Charizard" src= "https://images.saymedia-content.com/.image/t_share/MTc2MjkyNDg2MzI1NDc4NTkw/pokemon-charizard-nicknames.png"></td>
+            </tr>
+            
+            <tr class = "bold small">
+                <td></td>
+                <td class = "info">NO. 006</td>
+                <td class = "info"> Flame Pokémon</td>
+                <td class = "info">HT: 5'07"</td>
+                <td class = "info">WT: 199.5 lbs.</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td  class = "bold large" colspan="6" id= "ability">Ability: Energy Burn</td>
+            </tr>
+            <tr>
+                <td colspan="6">All Energy attached to this Pokémon are <i class='fas'>&#xf7e4;</i> Energy instead of their usual type.</td>
+            </tr>
+            <tr>
+                <td><i class='fas'>&#xf7e4;</i><i class='fas'>&#xf7e4;</i><i class='fas'>&#xf7e4;</i><i class='fas'>&#xf7e4;</i></td>
+                <td colspan="2" class = "bold large">Fire Spin</td>
+                <td colspan = "3" class = "bold large" id = "right">200</td>
+            </tr>
+            <tr>
+                <td colspan="6">Discard 3 Energy attached to this Pokémon.</td>
+            </tr>
+            <tr>
+                <td colspan = 2>weakness <i class='fas' id = 'water'>&#xf06d;</i> <i class = "bold">x2</i></td>
+                <td>resistance <i class='fas'>&#xf6de;</i><i class = "bold">-20</i></td>
+                <td colspan="3" rowspan="2">Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very hot temperatures.</td>
+            </tr>
+            <tr>
+                <td>retreat cost</td>
+                <td colspan = 2><i class='fas neutral'>&#xf185;</i><i class='fas neutral'>&#xf185;</i><i class='fas neutral'>&#xf185;</i></td>
+
+            </tr>
+        </tfoot>
+
     </table>
 </body>
 </html>
